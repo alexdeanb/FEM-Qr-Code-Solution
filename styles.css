@@ -1,0 +1,51 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif ;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#Card {
+
+    max-width: 270px;
+    min-width: 270px;
+    background-color: white;
+    padding: 1.5em;
+    margin-top: 25vh;
+    border-radius: 1.2em;
+    text-align: center;
+    align-self: center;
+}
+
+.QRCode{
+    width: 100%;
+}
+
+#CardText{
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.CardTitle{
+
+    color: hsl(218, 44%, 22%);
+
+}
+
+.CardSubtitle{
+    color: hsl(220, 15%, 55%);
+}
+
