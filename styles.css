@@ -6,12 +6,12 @@
     padding: 0%;
 }
 
-body{
+
+main{
     background-color: hsl(212, 45%, 89%);
     font-family: "Outfit", sans-serif ;
     font-size: 14px;
     display: flex;
-    align-items: center;
     min-height: 100vh;
     flex-direction: column;
     text-align: center;
@@ -19,13 +19,14 @@ body{
 
 
 #Card {
-
     max-width: 270px;
     min-width: 270px;
     background-color: white;
     padding: 1.5em;
     margin-top: 25vh;
     border-radius: 1.2em;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     align-self: center;
 }
@@ -35,18 +36,18 @@ body{
     border-radius: 1em;
 }
 
-#CardText{
+.CardText{
     padding: 15px;
     padding-bottom: 0;
 }
 
-.CardTitle{
+#CardTitle{
 
     color: hsl(218, 44%, 22%);
 
 }
 
-.CardSubtitle{
+#CardSubtitle{
     color: hsl(220, 15%, 55%);
 }
 
