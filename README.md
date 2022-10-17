@@ -27,8 +27,7 @@ A simple QR code card with a header and subtext.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Solution Site](https://alexdeanb.github.io/FEM-Qr-Code-Solution/)
 
 ## My process
 
